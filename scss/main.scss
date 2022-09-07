@@ -1,0 +1,13 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@import './variables/colores';
+
+@import './variables/extend';
+
+@import './secciones/header';
+@import './secciones/main';
+@import './secciones/footer';
