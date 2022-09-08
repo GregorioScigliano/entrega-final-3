@@ -1,0 +1,9 @@
+@mixin typo ($font, $size, $c, $pd, $ubi, $txtd){
+    font-family: $font;
+    font-weight: bolder;
+    font-size: $size;
+    color: $c;
+    padding: $pd;
+    text-align: $ubi;
+    text-decoration: $txtd;
+}

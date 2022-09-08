@@ -1,0 +1,7 @@
+@media(min-width: 710px){
+    .mi-header{
+        &__titulo{
+            @include typo ($titulos, 80px, $bg-mn, 15px, center, none);
+        }
+    }
+}

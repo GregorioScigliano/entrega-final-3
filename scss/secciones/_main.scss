@@ -1,0 +1,12 @@
+.mi-main{
+    background-color: $bg-mn;
+    background-image: linear-gradient($bg-mn, $bg-hr, $bg-fr, $bg-mn);
+    &__card{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        &--img{
+            height: 15.625rem;
+        }
+    }
+}

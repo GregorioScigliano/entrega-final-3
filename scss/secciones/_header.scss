@@ -1,0 +1,10 @@
+.mi-header{
+    background-color: $bg-hr;
+    &__banner{
+        width: 100%;
+    }
+    &__titulo{
+        @include typo ($titulos, 55px, $bg-mn, 15px, center, none);
+    }
+
+}

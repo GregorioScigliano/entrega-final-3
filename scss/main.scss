@@ -5,9 +5,10 @@
 }
 
 @import './variables/colores';
-
+@import './variables/typo';
 @import './variables/extend';
 
 @import './secciones/header';
 @import './secciones/main';
 @import './secciones/footer';
+@import './variables/mediasquerys'
