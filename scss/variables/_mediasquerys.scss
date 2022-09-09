@@ -1,7 +1,32 @@
-@media(min-width: 710px){
+@keyframes titulo-pagina{
+    0% {
+        color: black;
+    }
+    40%{
+        color: #ffa500;
+    }
+    80%{
+        color: #00ffff;
+    }
+    100%{
+        color: black;
+    }
+}
+
+@media(min-width: 760px){
     .mi-header{
         &__titulo{
             @include typo ($titulos, 80px, $bg-mn, 15px, center, none);
         }
+        &__ul{
+            &--li{
+                @include typo ($txt, 30px, $bg-mn, 10px, none, none);
+            }
+        }    
     }
+    .mi-main-contacto{
+        &__txt{
+            @include typo ($txt, 30px, $c-txt, 10px, center, none);
+        }
+    }   
 }

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="encuentra, musica, playlist, canciones, similares">
+    <meta name="description" content="Herramienta que te ayuda a encontrar canciones/bandas similares.">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Encuentra</title>
+</head>
+    <body>
+        <header class="mi-header">
+            <img class="mi-header__banner" src="../imagenes-comprimidas/banner.jpg" alt="Banner">
+            <h1 class="mi-header__titulo">Encuentra</h1>
+            <nav>
+                <ul class="mi-header__ul">
+                    <li><a class="mi-header__ul--li" href="../index.html">Inicio</a></li>
+                    <li><a class="mi-header__ul--li" href="#">Productos</a></li>
+                    <li><a class="mi-header__ul--li" href="./encuentra.html">Encuentra</a></li>
+                    <li><a class="mi-header__ul--li" href="#">Festivales</a></li>
+                    <li><a class="mi-header__ul--li" href="./contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main class="mi-main-contacto">
+            <p class="mi-main-contacto__txt">En la seccion encuentra, te brindamos una herramienta para que encuentres nueva musica. <br>
+                La idea es que introduzcas temas / bandas, de tu preferencia, y la herramienta te ira dando resultados <span class="mi-main-contacto__txt--span">similares</span>, para que puedas ir armando una playlist a tu gusto, con musica completamente nueva! <br> Es muy simple, nos basamos en el analisis de datos. Cierto tema A, suele escucharse despues de tema B, asique si colocas A, te recomendaremos B, y visceversa. <br> No es necesario completar todos los campos, pero mientras mas informacion nos brindes, mas podemos encontrar por vos.</p>
+            <div class="formulario">
+                <div class="formulario__titulo">FORMULARIO</div>
+                <form class="formulario__form" action="#">
+                    <div class="formulario__form--detalle-usuario">
+                        <div class="input-box">
+                            <span class="detalle">Nombre de la banda</span>
+                            <input type="text" placeholder="Banda" required>
+                        </div>
+                        <div class="input-box">
+                            <span class="detalle">Nombre de la cancion</span>
+                            <input type="text" placeholder="Cancion" required>
+                        </div>
+                        <div class="input-box">
+                            <span class="detalle">Genero musical</span>
+                            <input type="text" placeholder="Genero" required>
+                        </div>
+                    </div>
+                    <div class="formulario__form--boton">
+                        <input type="submit" value="Buscar">
+                    </div>
+                </form>
+            </div>
+        </main>
+        <footer class="mi-footer">
+          <ul class="mi-footer__ul">
+            <li><a href="https://es-la.facebook.com/" target="_blank"><img class="mi-footer__ul--img" src="../imagenes-comprimidas/redes/facebook.png" alt="facebook"></a></li>
+            <li><a href="https://www.instagram.com/" target="_blank"><img class="mi-footer__ul--img" src="../imagenes-comprimidas/redes/instagram.png" alt="instagram"></a></li>
+            <li><a href="https://twitter.com/?lang=es" target="_blank"><img class="mi-footer__ul--img" src="../imagenes-comprimidas/redes/twitter.png" alt="twitter"></a></li>
+          </ul>
+        </footer>
+    </body>
+</html>

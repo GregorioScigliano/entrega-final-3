@@ -5,6 +5,23 @@
     }
     &__titulo{
         @include typo ($titulos, 55px, $bg-mn, 15px, center, none);
+        animation-name: titulo-pagina;
+        animation-duration: 10s;
+        animation-iteration-count: infinite;
+    }
+    &__ul{
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+        justify-content: space-around;
+        margin: 0;
+        padding: 15px;
+        &--li{
+            @include typo ($txt, 17px, $bg-mn, 10px, none, none)
+        }
+        &--li:hover{
+            color: $bg-fr;
+        }
     }
 
 }

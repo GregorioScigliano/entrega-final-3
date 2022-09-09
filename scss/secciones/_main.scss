@@ -1,6 +1,9 @@
+// index
+
 .mi-main{
     background-color: $bg-mn;
     background-image: linear-gradient($bg-mn, $bg-hr, $bg-fr, $bg-mn);
+    padding: 20px;
     &__card{
         display: flex;
         flex-direction: column;
@@ -10,3 +13,146 @@
         }
     }
 }
+.btn-primary {
+    background-color: #E63B2E;
+    border-color: #ffa500;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: bolder;
+}
+.btn-primary:hover{
+    background-color: cyan;
+}
+// contacto
+
+.mi-main-contacto{
+    background-color: $bg-mn;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    &__txt{
+        @include typo ($txt, 20px, $c-txt, 10px, center, none);
+        &--span {
+            text-decoration: underline;
+        }
+    } 
+}
+.formulario{
+    max-width: 700px;
+    width: 100%;
+    background: linear-gradient(135deg,#E63B2E,#ffa500);
+    padding: 25px 30px;
+    border-radius: 5px;
+    &__titulo{
+        position: relative;
+        @include typo ($txt, 25px, $bg-mn, 0, none, none);
+    }
+    &__titulo::before{
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        height: 3px;
+        width: 30px;
+        background: linear-gradient(135deg,#ffa500, #E63B2E);
+    }
+    &__form{
+        &--detalle-usuario{
+            display: flex;
+            flex-wrap: wrap;
+            margin: 20px 0 12px 0;
+            .input-box{
+                margin-bottom: 15px;
+                width: calc(100% / 2 - 20px);
+                padding: 15px;
+                .detalle{
+                    font-weight: 500;
+                    margin-bottom: 5px;
+                    display: block;
+                    font-size: 20px;
+                    font-family: $txt;
+                } 
+                input{
+                    height: 45px;
+                    width: 100%;
+                    outline: none;
+                    border-radius: 5px;
+                    border: 1px solid #ccc;
+                    padding-left: 15px;
+                    font-size: 16px;
+                    border-bottom-width: 2px;
+                    transition: all 0.3s ease;
+                }
+                input:focus,
+                input:valid{
+                    border-color: $bg-fr;
+                }
+            }
+        }
+        &--boton{
+            height: 45px;
+            margin: 45px 0;
+            font-family: 'Poppins', sans-serif;
+            input{
+                height: 100%;
+                width: 100%;
+                outline: none;
+                color: antiquewhite;
+                font-size: 18px;
+                font-weight: 500;
+                border-radius: 5px;
+                letter-spacing: 1px;
+                background: linear-gradient(135deg, #00ffff, #E63B2E ); 
+            }
+            input:hover{
+                background: linear-gradient(-135deg, #E63B2E, #00ffff);
+            }
+        }
+    }
+}
+.genero{
+    &__palabra{
+        font-size: 20px;
+        font-weight: 500;
+        font-family: 'Poppins', sans-serif;
+    }
+    &__categoria{
+        display: flex;
+        width: 80%;
+        margin: 14px 0;
+        justify-content: space-between;
+        &--label{
+            display: flex;
+            align-items: center;
+        }
+        &--genero{
+            font-family: 'Poppins', sans-serif;
+        }
+        &--punto{
+            height: 18px;
+            width: 18px;
+            background: #d9d9d9;
+            border-radius: 50%;
+            margin-right: 10px;
+            border: 5px solid transparent;
+            transition: all 0.3s ease;
+        }
+    }
+}
+#punto-1:checked~.genero__categoria label .uno,
+#punto-2:checked~.genero__categoria label .dos,
+#punto-3:checked~.genero__categoria label .tres{
+        border-color: #d9d9d9;
+        background: black;
+}
+form input[type="radio"]{
+    display: none;
+}
+
+
+
+        
+
