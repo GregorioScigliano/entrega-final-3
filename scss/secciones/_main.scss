@@ -152,6 +152,27 @@ form input[type="radio"]{
     display: none;
 }
 
+// festivales
+
+.mi-container{
+    background-color: $bg-mn;
+    display: flex;
+    flex-direction: column;
+    &__img{
+        width: 100%;
+        height: 450px;
+    }
+    &__p1{
+        @include typo ($txt, 15px, $c-sec, 5px, center, none);
+    }
+    &__p2{
+        @include typo ($txt, 15px, $c-txt, 5px, center, none);
+    }
+    &__p3{
+        @include typo ($txt, 15px, $bg-fr, 5px, center, none);
+    }
+}
+
 
 
         
