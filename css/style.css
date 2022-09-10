@@ -6,7 +6,7 @@
   box-sizing: border-box; }
 
 .mi-header {
-  background-color: #ffa500; }
+  background-color: #E63B2E; }
   .mi-header__banner {
     width: 100%; }
   .mi-header__titulo {
@@ -206,6 +206,34 @@ form input[type="radio"] {
     font-weight: bolder;
     font-size: 15px;
     color: #00ffff;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none; }
+
+.mainc {
+  background-color: black;
+  margin: 0px; }
+  .mainc__carrusel {
+    display: flex;
+    justify-content: center;
+    padding: 20px; }
+  .mainc .carousel {
+    width: 800px; }
+  .mainc .w-100 {
+    height: 600px; }
+  .mainc .mi-boton {
+    padding: 25px; }
+  .mainc .mi-boton-a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder; }
+  .mainc__p {
+    font-family: "Poppins", sans-serif;
+    font-weight: bolder;
+    font-size: 20px;
+    color: #ffffff;
     padding: 5px;
     text-align: center;
     text-decoration: none; }

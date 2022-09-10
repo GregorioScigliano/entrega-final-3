@@ -105,10 +105,10 @@
                 font-weight: 500;
                 border-radius: 5px;
                 letter-spacing: 1px;
-                background: linear-gradient(135deg, #00ffff, #E63B2E ); 
+                background: linear-gradient(135deg, $bg-fr, $c-sec ); 
             }
             input:hover{
-                background: linear-gradient(-135deg, #E63B2E, #00ffff);
+                background: linear-gradient(-135deg, $c-sec, $bg-fr);
             }
         }
     }
@@ -170,6 +170,37 @@ form input[type="radio"]{
     }
     &__p3{
         @include typo ($txt, 15px, $bg-fr, 5px, center, none);
+    }
+}
+
+// carrusel-productos, respeto clases para css.
+
+.mainc{
+    background-color: black;
+    margin: 0px;
+    &__carrusel{
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+    }
+    .carousel{
+        width: 800px;
+    }
+    .w-100{
+        height: 600px;
+    }
+    .mi-boton{
+        padding: 25px;
+    }
+    .mi-boton-a{
+        text-decoration: none;
+        color: black;
+        font-size: 20px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: bolder;
+    }
+    &__p{
+        @include typo ($txt, 20px, $c-txt, 5px, center, none);
     }
 }
 

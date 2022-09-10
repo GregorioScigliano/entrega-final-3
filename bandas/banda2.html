@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bandas</title>
+    <meta name="keywords" content="bandas, artistas, musica, recitales, rock">
+    <meta name="description" content="Pagina con informacion de tu banda indie favorita.">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
+  </head>
+  <body> 
+    <header class="mi-header">
+        <img class="mi-header__banner" src="../imagenes-comprimidas/banner.jpg" alt="Banner">
+        <h1 class="mi-header__titulo">Lime Cordiale</h1>
+        <nav>
+            <ul class="mi-header__ul">
+                <li><a class="mi-header__ul--li" href="../index.html">Inicio</a></li>
+                <li><a class="mi-header__ul--li" href="../productos.html">Productos</a></li>
+                <li><a class="mi-header__ul--li" href="../encuentra.html">Encuentra</a></li>
+                <li><a class="mi-header__ul--li" href="../festivales.html">Festivales</a></li>
+                <li><a class="mi-header__ul--li" href="../contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="mainc">
+      <div class="mainc__carrusel">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="../imagenes-comprimidas/banda2/lc1.jpg" class="d-block w-100" alt="lc1">
+              </div>
+              <div class="carousel-item">
+                <img src="../imagenes-comprimidas/banda2/lc2.jpg" class="d-block w-100" alt="lc2">
+              </div>
+              <div class="carousel-item">
+                <img src="../imagenes-comprimidas/banda2/lc3.jpg" class="d-block w-100" alt="lc3">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+        <div>
+          <p class="mainc__p">Lime Cordiale es un grupo de Sidney, Australia, formados en 2009. Su genero musical más destacado es el Indie-pop. Entre sus canciones más destacadas se encuentran: Robbery, Temper Temper, Money, entre otros.  </p>
+        </div>
+        <div class="d-grid gap-2 col-6 mx-auto mi-boton">
+          <button class="btn btn-primary" type="button"><a class="mi-boton-a" href="../pages/encuentra.html">Seguir</button></a>
+          <button class="btn btn-primary" type="button"><a class="mi-boton-a" href="../eventos/evento2.html">Comprar Ticket</button></a>
+        </div>
+    </main>
+    <footer class="mi-footer">
+        <ul class="mi-footer__ul">
+          <li><a href="https://es-la.facebook.com/" target="_blank"><img class="mi-footer__ul--img" src="../imagenes-comprimidas/redes/facebook.png" alt="facebook"></a></li>
+          <li><a href="https://www.instagram.com/" target="_blank"><img class="mi-footer__ul--img" src="../imagenes-comprimidas/redes/instagram.png" alt="instagram"></a></li>
+          <li><a href="https://twitter.com/?lang=es" target="_blank"><img class="mi-footer__ul--img" src="../imagenes-comprimidas/redes/twitter.png" alt="twitter"></a></li>
+        </ul>
+      </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+  </body>
+</html>
