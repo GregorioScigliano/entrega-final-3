@@ -16,17 +16,17 @@
 @media(min-width: 760px){
     .mi-header{
         &__titulo{
-            @include typo ($titulos, 80px, $bg-mn, 15px, center, none);
+            @include typo ($titulos, 5rem, $bg-mn, 0.938rem, center, none);
         }
         &__ul{
             &--li{
-                @include typo ($txt, 30px, $bg-mn, 10px, none, none);
+                @include typo ($txt, 1.875rem, $bg-mn, 0.625rem, none, none);
             }
         }    
     }
     .mi-main-contacto{
         &__txt{
-            @include typo ($txt, 30px, $c-txt, 10px, center, none);
+            @include typo ($txt, 1.6rem, $c-txt, 0.625rem, left, none);
         }
     }   
 }
@@ -34,16 +34,16 @@
     .mi-container{
         &__img{
             width: 100%;
-            padding: 20px;
+            padding: 1.25rem;
         }
         &__p1{
-            @include typo ($txt, 25px, $c-sec, 60px 5px 5px 5px, left, none);
+            @include typo ($txt, 1.563rem, $c-sec, 60px 5px 5px 5px, left, none);
         }
         &__p2{
-            @include typo ($txt, 25px, $c-txt, 60px 5px 5px 5px, right, none);
+            @include typo ($txt, 1.563rem, $c-txt, 60px 5px 5px 5px, right, none);
         }
         &__p3{
-            @include typo ($txt, 25px, $bg-fr, 60px 5px 5px 5px, left, none);
+            @include typo ($txt, 1.563rem, $bg-fr, 60px 5px 5px 5px, left, none);
         }
             background-color: black; 
             display: grid;

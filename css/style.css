@@ -12,9 +12,9 @@
   .mi-header__titulo {
     font-family: "Bungee Shade", cursive;
     font-weight: bolder;
-    font-size: 55px;
+    font-size: 3.438rem;
     color: #000000;
-    padding: 15px;
+    padding: 0.938rem;
     text-align: center;
     text-decoration: none;
     animation-name: titulo-pagina;
@@ -30,9 +30,9 @@
     .mi-header__ul--li {
       font-family: "Poppins", sans-serif;
       font-weight: bolder;
-      font-size: 17px;
+      font-size: 1.063rem;
       color: #000000;
-      padding: 10px;
+      padding: 0.625rem;
       text-align: none;
       text-decoration: none; }
     .mi-header__ul--li:hover {
@@ -41,20 +41,21 @@
 .mi-main {
   background-color: #000000;
   background-image: linear-gradient(#000000, #ffa500, #00ffff, #000000);
-  padding: 20px; }
+  padding: 1.25rem; }
   .mi-main__card {
     display: flex;
     flex-direction: column;
     align-items: center; }
     .mi-main__card--img {
-      height: 15.625rem; }
+      height: 15.625rem;
+      object-fit: cover; }
 
 .btn-primary {
   background-color: #E63B2E;
   border-color: #ffa500;
   color: black;
   font-family: 'Poppins', sans-serif;
-  font-size: 15px;
+  font-size: 0.938rem;
   font-weight: bolder; }
 
 .btn-primary:hover {
@@ -62,7 +63,7 @@
 
 .mi-main-contacto {
   background-color: #000000;
-  padding: 20px;
+  padding: 1.95rem;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -70,11 +71,13 @@
   .mi-main-contacto__txt {
     font-family: "Poppins", sans-serif;
     font-weight: bolder;
-    font-size: 20px;
+    font-size: 1.25rem;
     color: #ffffff;
-    padding: 10px;
+    padding: 0.625rem;
     text-align: center;
-    text-decoration: none; }
+    text-decoration: none;
+    text-align: center;
+    max-width: 75vw; }
     .mi-main-contacto__txt--span {
       text-decoration: underline; }
 
@@ -88,7 +91,7 @@
     position: relative;
     font-family: "Poppins", sans-serif;
     font-weight: bolder;
-    font-size: 25px;
+    font-size: 1.563rem;
     color: #000000;
     padding: 0;
     text-align: none;
@@ -104,10 +107,10 @@
   .formulario__form--detalle-usuario {
     display: flex;
     flex-wrap: wrap;
-    margin: 20px 0 12px 0; }
+    margin: 1.25rem 0 0.75rem 0; }
     .formulario__form--detalle-usuario .input-box {
       margin-bottom: 15px;
-      width: calc(100% / 2 - 20px);
+      width: calc(100% / 2 - 1.25rem);
       padding: 15px; }
       .formulario__form--detalle-usuario .input-box .detalle {
         font-weight: 500;
@@ -237,12 +240,16 @@ form input[type="radio"] {
     padding: 5px;
     text-align: center;
     text-decoration: none; }
+  .mainc img, .mainc svg {
+    vertical-align: middle;
+    object-fit: contain; }
 
 .mi-footer {
   background-color: #00ffff; }
   .mi-footer__ul {
     display: flex;
     flex-direction: row;
+    justify-content: center;
     list-style: none;
     margin: 0px;
     padding: 10px; }
@@ -264,26 +271,26 @@ form input[type="radio"] {
   .mi-header__titulo {
     font-family: "Bungee Shade", cursive;
     font-weight: bolder;
-    font-size: 80px;
+    font-size: 5rem;
     color: #000000;
-    padding: 15px;
+    padding: 0.938rem;
     text-align: center;
     text-decoration: none; }
   .mi-header__ul--li {
     font-family: "Poppins", sans-serif;
     font-weight: bolder;
-    font-size: 30px;
+    font-size: 1.875rem;
     color: #000000;
-    padding: 10px;
+    padding: 0.625rem;
     text-align: none;
     text-decoration: none; }
   .mi-main-contacto__txt {
     font-family: "Poppins", sans-serif;
     font-weight: bolder;
-    font-size: 30px;
+    font-size: 1.6rem;
     color: #ffffff;
-    padding: 10px;
-    text-align: center;
+    padding: 0.625rem;
+    text-align: left;
     text-decoration: none; } }
 
 @media (min-width: 1200px) {
@@ -298,11 +305,11 @@ form input[type="radio"] {
     grid-template-areas: "mi-img1 mi-img1 mi-img1 texto1 texto1" "texto2 texto2 mi-img2 mi-img2 mi-img2" "mi-img3 mi-img3 mi-img3 texto3 texto3" ". video video video ."; }
     .mi-container__img {
       width: 100%;
-      padding: 20px; }
+      padding: 1.25rem; }
     .mi-container__p1 {
       font-family: "Poppins", sans-serif;
       font-weight: bolder;
-      font-size: 25px;
+      font-size: 1.563rem;
       color: #E63B2E;
       padding: 60px 5px 5px 5px;
       text-align: left;
@@ -310,7 +317,7 @@ form input[type="radio"] {
     .mi-container__p2 {
       font-family: "Poppins", sans-serif;
       font-weight: bolder;
-      font-size: 25px;
+      font-size: 1.563rem;
       color: #ffffff;
       padding: 60px 5px 5px 5px;
       text-align: right;
@@ -318,7 +325,7 @@ form input[type="radio"] {
     .mi-container__p3 {
       font-family: "Poppins", sans-serif;
       font-weight: bolder;
-      font-size: 25px;
+      font-size: 1.563rem;
       color: #00ffff;
       padding: 60px 5px 5px 5px;
       text-align: left;

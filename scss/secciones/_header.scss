@@ -4,7 +4,7 @@
         width: 100%;
     }
     &__titulo{
-        @include typo ($titulos, 55px, $bg-mn, 15px, center, none);
+        @include typo ($titulos, 3.438rem, $bg-mn, 0.938rem, center, none);
         animation-name: titulo-pagina;
         animation-duration: 10s;
         animation-iteration-count: infinite;
@@ -17,7 +17,7 @@
         margin: 0;
         padding: 15px;
         &--li{
-            @include typo ($txt, 17px, $bg-mn, 10px, none, none)
+            @include typo ($txt, 1.063rem, $bg-mn, 0.625rem, none, none)
         }
         &--li:hover{
             color: $bg-fr;
