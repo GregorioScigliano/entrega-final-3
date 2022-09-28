@@ -15,7 +15,7 @@
         list-style: none;
         justify-content: space-around;
         margin: 0;
-        padding: 15px;
+        padding: 0.938rem;
         &--li{
             @include typo ($txt, 1.063rem, $bg-mn, 0.625rem, none, none)
         }

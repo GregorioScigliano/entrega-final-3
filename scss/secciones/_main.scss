@@ -44,10 +44,10 @@
     } 
 }
 .formulario{
-    max-width: 700px;
+    max-width: 43.75rem;
     width: 100%;
     background: linear-gradient(135deg,#E63B2E,#ffa500);
-    padding: 25px 30px;
+    padding: 1.563rem 1.875rem;
     border-radius: 5px;
     &__titulo{
         position: relative;
@@ -58,8 +58,8 @@
         position: absolute;
         left: 0;
         bottom: 0;
-        height: 3px;
-        width: 30px;
+        height: 0.188rem;
+        width: 1.875rem;
         background: linear-gradient(135deg,#ffa500, #E63B2E);
     }
     &__form{
@@ -68,25 +68,25 @@
             flex-wrap: wrap;
             margin: 1.25rem 0 0.75rem 0;
             .input-box{
-                margin-bottom: 15px;
+                margin-bottom: 0.938rem;
                 width: calc(100% / 2 - 1.25rem);
-                padding: 15px;
+                padding: 0.938rem;
                 .detalle{
                     font-weight: 500;
-                    margin-bottom: 5px;
+                    margin-bottom: 0.313rem;
                     display: block;
-                    font-size: 20px;
+                    font-size: 1.25rem;
                     font-family: $txt;
                 } 
                 input{
-                    height: 45px;
+                    height: 2.813rem;
                     width: 100%;
                     outline: none;
-                    border-radius: 5px;
-                    border: 1px solid #ccc;
-                    padding-left: 15px;
-                    font-size: 16px;
-                    border-bottom-width: 2px;
+                    border-radius: 0.313rem;
+                    border: 0.063rem solid #ccc;
+                    padding-left: 0.938rem;
+                    font-size: 0.938rem;
+                    border-bottom-width: 0.125rem;
                     transition: all 0.3s ease;
                 }
                 input:focus,
@@ -96,15 +96,15 @@
             }
         }
         &--boton{
-            height: 45px;
-            margin: 45px 0;
+            height: 2.813rem;
+            margin: 2.813rem 0;
             font-family: 'Poppins', sans-serif;
             input{
                 height: 100%;
                 width: 100%;
                 outline: none;
                 color: antiquewhite;
-                font-size: 18px;
+                font-size: 1.125rem;
                 font-weight: 500;
                 border-radius: 5px;
                 letter-spacing: 1px;
@@ -118,7 +118,7 @@
 }
 .genero{
     &__palabra{
-        font-size: 20px;
+        font-size: 1.25rem;
         font-weight: 500;
         font-family: 'Poppins', sans-serif;
     }
@@ -163,16 +163,16 @@ form input[type="radio"]{
     flex-direction: column;
     &__img{
         width: 100%;
-        height: 450px;
+        height: 28.125rem;
     }
     &__p1{
-        @include typo ($txt, 15px, $c-sec, 5px, center, none);
+        @include typo ($txt, 0.938rem, $c-sec, 0.313rem, center, none);
     }
     &__p2{
-        @include typo ($txt, 15px, $c-txt, 5px, center, none);
+        @include typo ($txt, 0.938rem, $c-txt, 0.313rem, center, none);
     }
     &__p3{
-        @include typo ($txt, 15px, $bg-fr, 5px, center, none);
+        @include typo ($txt, 0.938rem, $bg-fr, 0.313rem, center, none);
     }
 }
 
@@ -187,10 +187,10 @@ form input[type="radio"]{
         padding: 20px;
     }
     .carousel{
-        width: 800px;
+        width: 50rem;
     }
     .w-100{
-        height: 600px;
+        height: 37.5rem;
     }
     .mi-boton{
         padding: 25px;
@@ -198,12 +198,12 @@ form input[type="radio"]{
     .mi-boton-a{
         text-decoration: none;
         color: black;
-        font-size: 20px;
+        font-size: 1.25rem;
         font-family: 'Poppins', sans-serif;
         font-weight: bolder;
     }
     &__p{
-        @include typo ($txt, 20px, $c-txt, 5px, center, none);
+        @include typo ($txt, 1.25rem, $c-txt, 0.313rem, center, none);
     }
     img, svg {
         vertical-align: middle;

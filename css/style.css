@@ -26,7 +26,7 @@
     list-style: none;
     justify-content: space-around;
     margin: 0;
-    padding: 15px; }
+    padding: 0.938rem; }
     .mi-header__ul--li {
       font-family: "Poppins", sans-serif;
       font-weight: bolder;
@@ -82,10 +82,10 @@
       text-decoration: underline; }
 
 .formulario {
-  max-width: 700px;
+  max-width: 43.75rem;
   width: 100%;
   background: linear-gradient(135deg, #E63B2E, #ffa500);
-  padding: 25px 30px;
+  padding: 1.563rem 1.875rem;
   border-radius: 5px; }
   .formulario__titulo {
     position: relative;
@@ -101,46 +101,46 @@
     position: absolute;
     left: 0;
     bottom: 0;
-    height: 3px;
-    width: 30px;
+    height: 0.188rem;
+    width: 1.875rem;
     background: linear-gradient(135deg, #ffa500, #E63B2E); }
   .formulario__form--detalle-usuario {
     display: flex;
     flex-wrap: wrap;
     margin: 1.25rem 0 0.75rem 0; }
     .formulario__form--detalle-usuario .input-box {
-      margin-bottom: 15px;
+      margin-bottom: 0.938rem;
       width: calc(100% / 2 - 1.25rem);
-      padding: 15px; }
+      padding: 0.938rem; }
       .formulario__form--detalle-usuario .input-box .detalle {
         font-weight: 500;
-        margin-bottom: 5px;
+        margin-bottom: 0.313rem;
         display: block;
-        font-size: 20px;
+        font-size: 1.25rem;
         font-family: "Poppins", sans-serif; }
       .formulario__form--detalle-usuario .input-box input {
-        height: 45px;
+        height: 2.813rem;
         width: 100%;
         outline: none;
-        border-radius: 5px;
-        border: 1px solid #ccc;
-        padding-left: 15px;
-        font-size: 16px;
-        border-bottom-width: 2px;
+        border-radius: 0.313rem;
+        border: 0.063rem solid #ccc;
+        padding-left: 0.938rem;
+        font-size: 0.938rem;
+        border-bottom-width: 0.125rem;
         transition: all 0.3s ease; }
       .formulario__form--detalle-usuario .input-box input:focus,
       .formulario__form--detalle-usuario .input-box input:valid {
         border-color: #00ffff; }
   .formulario__form--boton {
-    height: 45px;
-    margin: 45px 0;
+    height: 2.813rem;
+    margin: 2.813rem 0;
     font-family: 'Poppins', sans-serif; }
     .formulario__form--boton input {
       height: 100%;
       width: 100%;
       outline: none;
       color: antiquewhite;
-      font-size: 18px;
+      font-size: 1.125rem;
       font-weight: 500;
       border-radius: 5px;
       letter-spacing: 1px;
@@ -149,7 +149,7 @@
       background: linear-gradient(-135deg, #E63B2E, #00ffff); }
 
 .genero__palabra {
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 500;
   font-family: 'Poppins', sans-serif; }
 
@@ -187,29 +187,29 @@ form input[type="radio"] {
   flex-direction: column; }
   .mi-container__img {
     width: 100%;
-    height: 450px; }
+    height: 28.125rem; }
   .mi-container__p1 {
     font-family: "Poppins", sans-serif;
     font-weight: bolder;
-    font-size: 15px;
+    font-size: 0.938rem;
     color: #E63B2E;
-    padding: 5px;
+    padding: 0.313rem;
     text-align: center;
     text-decoration: none; }
   .mi-container__p2 {
     font-family: "Poppins", sans-serif;
     font-weight: bolder;
-    font-size: 15px;
+    font-size: 0.938rem;
     color: #ffffff;
-    padding: 5px;
+    padding: 0.313rem;
     text-align: center;
     text-decoration: none; }
   .mi-container__p3 {
     font-family: "Poppins", sans-serif;
     font-weight: bolder;
-    font-size: 15px;
+    font-size: 0.938rem;
     color: #00ffff;
-    padding: 5px;
+    padding: 0.313rem;
     text-align: center;
     text-decoration: none; }
 
@@ -221,23 +221,23 @@ form input[type="radio"] {
     justify-content: center;
     padding: 20px; }
   .mainc .carousel {
-    width: 800px; }
+    width: 50rem; }
   .mainc .w-100 {
-    height: 600px; }
+    height: 37.5rem; }
   .mainc .mi-boton {
     padding: 25px; }
   .mainc .mi-boton-a {
     text-decoration: none;
     color: black;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-family: 'Poppins', sans-serif;
     font-weight: bolder; }
   .mainc__p {
     font-family: "Poppins", sans-serif;
     font-weight: bolder;
-    font-size: 20px;
+    font-size: 1.25rem;
     color: #ffffff;
-    padding: 5px;
+    padding: 0.313rem;
     text-align: center;
     text-decoration: none; }
   .mainc img, .mainc svg {
@@ -252,7 +252,7 @@ form input[type="radio"] {
     justify-content: center;
     list-style: none;
     margin: 0px;
-    padding: 10px; }
+    padding: 0.625rem; }
     .mi-footer__ul--img {
       width: 3.1rem;
       height: 3.1rem; }
